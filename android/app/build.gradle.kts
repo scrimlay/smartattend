@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.smart_attend"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // ✅ overridden manually here
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
